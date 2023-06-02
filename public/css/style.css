@@ -12,11 +12,12 @@
     color: var(--tertiary);
 }
 .hero {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: var(--primary);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 4em;
 }
 .hero nav{
     display: flex;
@@ -95,7 +96,7 @@
 
 }
 .about{
-    height: 100vh;
+    /* height: 100vh; */
     background-color: var(--secondary);
     padding: 3em 0;
     /* transform: skew(20deg); */
@@ -149,8 +150,9 @@
     display: block;
 }
 .experience-projects{
-    height: 300vh;
+    /* height: 300vh; */
     background-color: var(--primary);
+    padding-bottom: 2em;
 
 }
 .experience{
@@ -317,5 +319,100 @@
     font-family: var(--font-tertiary), serif;
 }
 .project-link .github-p{
+    color: var(--secondary);
+}
+.contact{
+    background-color: var(--secondary);
+    padding: 3.5em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact h2{
+    text-align: center;
+    color: var(--primary);
+    font-family: var(--font-primary), serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+.contact p{
+    font-family: var(--font-tertiary), serif;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    color: var(--primary);
+    width: 70%;
+    text-align: center;
+    max-width: 22em;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    width: 70%;
+    max-width: 22em;
+}
+.contact input, .contact textarea{
+    display: block;
+    width: 100%;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 0;
+    font-family: var(--font-tertiary), serif;
+    color: var(--primary);
+    background-color: var(--quinary);
+}
+.contact textarea{
+    height: 13em;
+    resize: none;
+}
+.contact input[type="submit"]{
+    width: 50%;
+    max-width: 10em;
+    background-color: var(--tertiary);
+    color: var(--primary);
+    font-family: var(--font-tertiary), serif;
+    font-size: 1em;
+    font-weight: 400;
+    border: 0;
+    border-radius: 5px;
+    padding: .7em 1em;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+footer {
+    background-color: var(--primary);
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    list-style: none;
+    margin-bottom: .5em;
+}
+footer ul li {
+
+    cursor: pointer;
+    list-style: none;
+}
+footer ul li a img{
+    width: 3em;
+    height: 3em;
+}
+footer p{
+    font-family: var(--font-tertiary), serif;
+    font-size: 1em;
     color: var(--secondary);
 }
