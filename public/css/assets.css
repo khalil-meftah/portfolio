@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antic+Didone&family=Arapey:ital@0;1&display=swap');
+
+:root{
+
+    --primary: #1E1E1E;
+    --secondary: #F0F0F0;
+    --tertiary: #DAA826;
+    --quaternary: #F5BD2A;
+    --quinary: #D9D9D9 ;
+
+    --font-primary: 'Abril Fatface', serif;
+    --font-secondary: 'Antic Didone', serif;
+    --font-tertiary: 'Arapey', serif;
+}
