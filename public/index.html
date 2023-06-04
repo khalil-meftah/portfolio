@@ -10,51 +10,48 @@
 </head>
 <body>
     <div class="hero" id="home">
-        <nav>
+        <nav id="nav">
             <img src="img/logo.svg" alt="logo" class="logo">
             <div class="hamburger">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
-            <!-- <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact me</a></li>
-            </ul> -->
+            <div class="nav-links-div">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+
         </nav>
-        <img src="img/hero-img.svg" alt="Hero image" class="hero-img">
-        <div class="hero-text">
-            <h1>
-                <span class="block">Bringing Digital</span>
-                <span class="block">Solutions to <span class="highlighted">Life</span></span>
-            </h1>
-            <p>
-                Ready to embark on a digital <span class="highlighted">transformation</span> journey that sets you apart from the <span class="highlighted">competition</span>? Let's create something <span class="highlighted">extraordinary</span> together.
-            </p>
-            <a href="#contact">Get in touch</a>
+        <div class="hero-main">
+            <img src="img/hero-img.svg" alt="Hero image" class="hero-img">
+            <div class="hero-text">
+                <h1>
+                    <span class="block">Bringing Digital</span>
+                    <span class="block">Solutions to <span class="highlighted">Life</span></span>
+                </h1>
+                <p>
+                    Ready to embark on a digital <span class="highlighted">transformation</span> journey that sets you apart from the <span class="highlighted">competition</span>? Let's create something <span class="highlighted">extraordinary</span> together.
+                </p>
+                <a href="#contact">Get in touch</a>
+            </div>
         </div>
         
-        <ul id="socials">
-            <li><a href="https://github.com/khalil-meftah" target="_blank"><img src="img/github.svg" alt="github"></a></li>
-            <li><a href="https://twitter.com/Khalile___" target="_blank"><img src="img/twitter.svg" alt="twitter"></a></li>
-            <li><a href="https://www.linkedin.com/in/khalil-meftah/" target="_blank"><img src="img/linkedin.svg" alt="linkedin"></a></li>
-            <li><a href="https://codepen.io/Khalil-Meftah" target="_blank"><img src="img/codePen.svg" alt="codePen"></a></li>
-        </ul>
-        <!-- <div class="connector"></div> -->
     </div>
     <div id="about" class="about">
         <div class="about-text">
             <span class="name-span">Hi, I am</span>
-            <h2 class="highlighted">Meftah Khalil</h2>
+            <h2 class="highlighted hbgw">Meftah Khalil</h2>
             <span class="name-span">Full Stack Web Developer</span>
             <p>
-                Passionate web developer with a knack for <span class="highlighted">problem-solving</span> and attention to detail. Enthusiastic about Full Stack Development and collaborating on ambitious projects.
+                Passionate web developer with a knack for <span class="highlighted hbgw">problem-solving</span> and attention to detail. Enthusiastic about Full Stack Development and collaborating on ambitious projects.
             </p>
         </div>
         <img src="img/myImg.svg" alt="My image" class="myImg">
-        <!-- <div class="connector connector2"></div> -->
     </div>
     <div class="experience-projects">
         <div id="experience" class="experience">
@@ -156,8 +153,9 @@
     </div>
     <div id="contact" class="contact">
         <h2>Get in touch</h2>
-        <p>Ready to take your digital projects to the <span class="highlighted">next level</span>? Contact me now and let's transform your vision into a <span class="highlighted">reality</span>.</p>
-        <form action="">
+        <p>Ready to take your digital projects to the <span class="highlighted hbgw">next level</span>? Contact me now and let's transform your vision into a <span class="highlighted hbgw">reality</span>.</p>
+        <h3><a href="mailto:khalile.meftah@gmail.com">khalile.meftah@gmail.com</a></h3>
+        <form>
             <input type="text" placeholder="Name">
             <input type="email" placeholder="Email">
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
@@ -165,13 +163,18 @@
         </form>
     </div> 
     <footer>
-        <ul id="socials2">
+        <ul id="socials2" class="socials">
             <li><a href="https://github.com/khalil-meftah" target="_blank"><img src="img/github.svg" alt="github"></a></li>
             <li><a href="https://twitter.com/Khalile___" target="_blank"><img src="img/twitter.svg" alt="twitter"></a></li>
             <li><a href="https://www.linkedin.com/in/khalil-meftah/" target="_blank"><img src="img/linkedin.svg" alt="linkedin"></a></li>
             <li><a href="https://codepen.io/Khalil-Meftah" target="_blank"><img src="img/codePen.svg" alt="codePen"></a></li>
         </ul>
-        <p>Khalil Meftah <span class="highlighted">© 2023</span></p>
+        <!-- <p>Khalil Meftah <span class="highlighted">© 2023</span></p> -->
     </footer>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <!-- <script src="js/scrollReveal.js"></script> -->
+    <script src="js/script.js"></script>
+
+
 </body>
 </html>

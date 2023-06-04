@@ -3,6 +3,7 @@
 :root{
 
     --primary: #1E1E1E;
+    --primary-light: #333333;
     --secondary: #F0F0F0;
     --tertiary: #DAA826;
     --quaternary: #F5BD2A;
@@ -11,4 +12,5 @@
     --font-primary: 'Abril Fatface', serif;
     --font-secondary: 'Antic Didone', serif;
     --font-tertiary: 'Arapey', serif;
+
 }
